@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Little Me • 12v edition</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Playfair+Display:wght@700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background-glow glow-1"></div>
+  <div class="background-glow glow-2"></div>
+  <div class="background-glow glow-3"></div>
+
+  <!-- START SCREEN -->
+  <section id="start-screen" class="screen active">
+    <div class="hero-card">
+      <h1>Little Me</h1>
+      <h2>12v edition</h2>
+      
+      <button id="start-btn" class="primary-btn">Start the memories</button>
+    </div>
+  </section>
+
+  <!-- GAME SCREEN -->
+  <section id="game-screen" class="screen">
+    <div class="game-shell">
+      <div class="top-bar">
+        <div class="progress-box">
+          <span class="progress-label">Govedo</span>
+          <strong id="student-counter">1 / 27</strong>
+        </div>
+
+        <div class="title-box">
+          <h3>Guess who's that</h3>
+        </div>
+      </div>
+
+      <div class="game-content">
+        <button id="prev-btn" class="nav-btn" aria-label="Предишен">
+          &#10094;
+        </button>
+
+        <div class="cards-wrap">
+          <article class="photo-panel">
+            <div class="panel-label">Then</div>
+            <div class="image-frame">
+              <img id="baby-image" src="" alt="Снимка като малко дете" />
+            </div>
+            <p class="panel-note"></p>
+          </article>
+
+          <article class="photo-panel reveal-panel">
+            <div class="panel-label">Now</div>
+            <div class="image-frame">
+              <img id="current-image" class="blurred" src="" alt="Сегашна снимка" />
+            </div>
+            <button id="show-btn" class="secondary-btn">Show</button>
+            <p id="student-name" class="student-name">???</p>
+          </article>
+        </div>
+
+        <button id="next-btn" class="nav-btn" aria-label="Следващ">
+          &#10095;
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
