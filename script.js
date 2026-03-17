@@ -26,6 +26,8 @@ const students = [
   { name: "Макс", baby: "https://imgur.com/xZ9mCHl.jpeg", current: "https://imgur.com/skrZpfY.jpeg" },
   { name: "Мария", baby: "https://imgur.com/W91WmmH.jpeg", current: "https://imgur.com/HHYK3pK.jpeg" },
     { name: "Крумчо и Данчо", baby: "https://i.imgur.com/TD7TAgH.jpeg", current: "https://i.imgur.com/i8I3bBb.jpeg" },
+      { name: "Всемогъщата", baby: "https://i.imgur.com/L6oGy7e.jpeg", current: "https://i.imgur.com/9K6ig5b.jpeg" },
+
 
   
 ];
